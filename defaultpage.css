@@ -1,0 +1,47 @@
+/* The Navigation Bar */
+.navbar {
+    overflow: hidden;
+    background-color: #ffdd00;
+    position: fixed;
+    top: 0;
+    width: 99%; /* Full width */
+} .navbar a {
+    /* Links inside the navbar */ 
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} .navbar a:hover {
+    transition: opacity 0.25s
+    color: #000;
+}
+
+/* Vertical Menus */
+.vertical-menu {
+    width: 250px;
+    height: 200px;
+    overflow-y: auto;
+    position: fixed;
+    border: "2px"
+} .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+} .vertical-menu a.header {
+    background-color: #ffdd00;
+    color: white;
+} .vertical-menu a.detail:hover {
+    background-color: #ccc;
+}
+
+/* The Main Content */
+.main {
+    margin-top: 60px;
+} body {
+    font-family: arial;
+    background-color: #8cff80;
+}
